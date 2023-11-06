@@ -3,7 +3,25 @@ import { PageHero } from '../components';
 import aboutImg from '../assets/hero-bcg.jpeg';
 
 const AboutPage = () => {
-  return <h4>about page</h4>;
+  return (
+    <main>
+      <PageHero title='About' />
+      <Wrapper className='page section section-center'>
+        <img src={aboutImg} alt='About hero image' />
+        <article>
+          <div className='title'>
+            <h2>Our Story</h2>
+            <div className='underline'></div>
+          </div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi minima eius voluptas aut, voluptate soluta
+            aperiam in exercitationem, quas suscipit quae deserunt odio ratione veniam optio doloremque illum nam
+            consequatur!
+          </p>
+        </article>
+      </Wrapper>
+    </main>
+  );
 };
 
 const Wrapper = styled.section`
@@ -33,4 +51,5 @@ const Wrapper = styled.section`
     grid-template-columns: 1fr 1fr;
   }
 `;
+
 export default AboutPage;

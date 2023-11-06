@@ -1,8 +1,28 @@
 import styled from 'styled-components';
 
 const Contact = () => {
-  return <h4>contact section</h4>;
+  return (
+    <Wrapper>
+      <div className='section-center'>
+        <h3>Join our newsletter and get 20% off</h3>
+        <div className='content'>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum dolore suscipit eos animi, architecto
+            eligendi quaerat cum laboriosam debitis fugit? Amet iste voluptas sunt error ipsa dolorum? Tenetur,
+            obcaecati!
+          </p>
+          <form className='contact-form'>
+            <input type='email' className='form-input' placeholder='enter email' />
+            <button type='submit' className='submit-btn'>
+              Subscribe
+            </button>
+          </form>
+        </div>
+      </div>
+    </Wrapper>
+  );
 };
+
 const Wrapper = styled.section`
   padding: 5rem 0;
   h3 {
