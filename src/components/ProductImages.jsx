@@ -1,12 +1,13 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import styled from 'styled-components';
 
-const ProductImages = ({ images = [{ url: '' }] }) => {
-  const [main, setMain] = useState(images[0]);
+// const ProductImages = ({ images = [{ url: '' }] }) => {
+const ProductImages = ({ image = '' }) => {
+  // const [main, setMain] = useState(images[0]);
 
   return (
     <Wrapper>
-      <img src={main.url} alt='main image' />
+      {/* <img src={main.url} alt='main image' />
       <div className='gallery'>
         {images.map((image, index) => {
           return (
@@ -19,6 +20,10 @@ const ProductImages = ({ images = [{ url: '' }] }) => {
             />
           );
         })}
+      </div> */}
+      <img src={image} alt='main image' />
+      <div className='gallery'>
+        <img src={image} alt='main image' className='active' />;
       </div>
     </Wrapper>
   );
