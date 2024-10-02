@@ -42,4 +42,4 @@ export const services = [
 export const products_url = 'https://e-commerce-api-d4tg.onrender.com/api/v1/products';
 
 // export const single_product_url = `https://course-api.com/react-store-single-product?id=`;
-export const single_product_url = `https://e-commerce-api-d4tg.onrender.com/api/v1/products?id=`;
+export const single_product_url = `https://e-commerce-api-d4tg.onrender.com/api/v1/products/`;
