@@ -12,9 +12,8 @@ const Hero = () => {
           Comfort Zone
         </h1>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit, nisi. Aspernatur dicta saepe at obcaecati
-          eveniet? Commodi culpa fugit sunt modi, et assumenda, nobis fugiat repellendus atque, nesciunt reiciendis
-          excepturi?
+          Elevate your spaces with ComfySloth! Explore stylish, functional products for every room, from the office to
+          the kids area. Your ultimate comfort zone begins here!
         </p>
         <Link to='/products' className='btn hero-btn'>
           Shop Now

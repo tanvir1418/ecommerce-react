@@ -22,19 +22,19 @@ export const services = [
     id: 1,
     icon: <GiCompass />,
     title: 'mission',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'ComfySloth’s mission is to provide stylish, high-quality products that enhance comfort in every space, making every home a haven of relaxation.',
   },
   {
     id: 2,
     icon: <GiDiamondHard />,
     title: 'vision',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'Our vision is to be the top destination for home decor, inspiring personalized comfort zones that reflect individual tastes and lifestyles.',
   },
   {
     id: 3,
     icon: <GiStabbedNote />,
     title: 'history',
-    text: 'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptates, ea. Perferendis corrupti reiciendis nesciunt rerum velit autem unde numquam nisi',
+    text: 'Founded with a passion for design, ComfySloth has evolved into a trusted name in home decor, committed to quality, innovation, and customer satisfaction.',
   },
 ];
 

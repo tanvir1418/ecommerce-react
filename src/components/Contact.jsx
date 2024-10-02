@@ -7,9 +7,9 @@ const Contact = () => {
         <h3>Join our newsletter and get 20% off</h3>
         <div className='content'>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione ipsum dolore suscipit eos animi, architecto
-            eligendi quaerat cum laboriosam debitis fugit? Amet iste voluptas sunt error ipsa dolorum? Tenetur,
-            obcaecati!
+            Sign up for our newsletter to receive exclusive updates, design tips, and a 20% discount on your first
+            purchase! Stay in the loop with the latest trends, special offers, and inspiration from ComfySloth, and
+            elevate your home today!
           </p>
           <form className='contact-form' action='https://formspree.io/f/xrgwdoqe' method='POST'>
             <input type='email' name='email' className='form-input' placeholder='enter email' />

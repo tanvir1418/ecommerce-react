@@ -14,9 +14,10 @@ const AboutPage = () => {
             <div className='underline'></div>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi minima eius voluptas aut, voluptate soluta
-            aperiam in exercitationem, quas suscipit quae deserunt odio ratione veniam optio doloremque illum nam
-            consequatur!
+            At ComfySloth, we believe that comfort and style go hand in hand. Founded with a passion for creating
+            inviting spaces, we offer a curated selection of high-quality products for every room in your home. Our team
+            is dedicated to helping you design your ultimate comfort zone, combining functionality with aesthetic
+            appeal. Join us on our journey to transform homes into havens of relaxation and creativity!
           </p>
         </article>
       </Wrapper>

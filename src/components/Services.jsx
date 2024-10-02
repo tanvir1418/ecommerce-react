@@ -11,8 +11,9 @@ const Services = () => {
             Build only for you
           </h3>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis nam fuga similique facilis laudantium a
-            debitis itaque modi, et adipisci quisquam obcaecati illum id dolores incidunt quia dolor deleniti quas!
+            Experience the ultimate in personalization with our custom furniture service. Tailored to your unique style
+            and needs, we create pieces that seamlessly fit your space and lifestyle. Transform your vision into reality
+            with ComfySloth!
           </p>
         </article>
         <div className='services-center'>
