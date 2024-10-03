@@ -1,23 +1,27 @@
-# Shoppy (React)
+# Comfybd🛄
 
-Shoppy is a simple shopping solution. It's a full-featured shopping website with a shopping cart system.
+Comfybd is a simple ecommerce project where you can buy products and make payment using stripe.
 
-## Live Site
+---
 
-Link - https://comfybd.netlify.app
+🚀 [Live Version](https://comfybd.netlify.app 'Comfybd'): https://comfybd.netlify.app
 
-## Deployment process
+---
 
-- Create a site on netlify and link the repository for github
-- Add environment variable to netlify
-- Create and build the site
-- After successful build netlify will generate a live domain
-- As our login system is handled by Auth0 so we have to add 'NETLIFY_GENERATED_URL' to Auth0 -> Applications -> Select Application -> Application URIs
+📃 Description:
 
-  Application URIs -> Allowed Callback URLs (NETLIFY_GENERATED_URL)
+    Shoppy is a simple shopping solution. It's a full-featured shopping website with a shopping cart system.
 
-  Application URIs -> Allowed Logout URLs (NETLIFY_GENERATED_URL)
+---
 
-  Application URIs -> Allowed Web Origins (NETLIFY_GENERATED_URL)
+⚙️ Technologies:
 
-- Clean cache and rebuild the netlify application
+    Frontend: HTML, CSS, JavaScript, jQuery, Ajax
+    Backend: PHP
+    Database: MySQL
+
+---
+
+📷 Screen Shots:
+
+![Comfybd](./readme/comfybd-screens.gif)
