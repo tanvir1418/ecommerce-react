@@ -37,7 +37,7 @@ const SingleProductPage = () => {
   }
 
   // const { name, price, description, stock, stars, reviews, id: sku, company, images } = product;
-  const { name, price, description, stock, stars, reviews, id: sku, company, image } = product;
+  const { name, price, description, inventory: stock, stars, reviews, id: sku, company, image } = product;
 
   return (
     <Wrapper>
